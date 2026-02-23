@@ -6,8 +6,7 @@
     "writing",
     "news",
     "cv",
-    "speaking",
-    "design-improvement"
+    "speaking"
   ],
   "primaryFeature": "test",
   "features": {
@@ -77,18 +76,12 @@
       "lastFile": "/Users/sangwooheo/Documents/test/src/app/speaking/page.tsx"
     },
     "design-improvement": {
-      "phase": "act",
-      "phaseNumber": 5,
-      "matchRate": null,
+      "phase": "archived",
+      "matchRate": 90,
       "iterationCount": 0,
-      "requirements": [],
-      "documents": {},
-      "timestamps": {
-        "started": "2026-02-23T13:38:17.020Z",
-        "lastUpdated": "2026-02-23T13:38:17.021Z"
-      },
-      "previousPhase": "check",
-      "autoAdvanced": true
+      "startedAt": "2026-02-23T13:38:17.020Z",
+      "archivedAt": "2026-02-23T14:10:00.000Z",
+      "archivedTo": "docs/archive/2026-02/design-improvement/"
     }
   },
   "pipeline": {
