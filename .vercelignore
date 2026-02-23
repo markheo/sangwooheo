@@ -5,5 +5,4 @@ node_modules
 .DS_Store
 KakaoTalk_*
 docs
-*.html
 style.css
