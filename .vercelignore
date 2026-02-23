@@ -1,0 +1,9 @@
+node_modules
+.next
+.env
+.env.local
+.DS_Store
+KakaoTalk_*
+docs
+*.html
+style.css
