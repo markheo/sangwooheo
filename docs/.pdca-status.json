@@ -1,0 +1,196 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-02-23T13:38:17.021Z",
+  "activeFeatures": [
+    "test",
+    "writing",
+    "news",
+    "cv",
+    "speaking",
+    "design-improvement"
+  ],
+  "primaryFeature": "test",
+  "features": {
+    "test": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-23T13:33:12.512Z",
+        "lastUpdated": "2026-02-23T13:37:56.932Z"
+      },
+      "lastFile": "/Users/sangwooheo/Documents/test/src/app/page.tsx"
+    },
+    "writing": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-23T13:34:27.707Z",
+        "lastUpdated": "2026-02-23T13:34:27.707Z"
+      },
+      "lastFile": "/Users/sangwooheo/Documents/test/src/app/writing/page.tsx"
+    },
+    "news": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-23T13:34:35.044Z",
+        "lastUpdated": "2026-02-23T13:38:06.002Z"
+      },
+      "lastFile": "/Users/sangwooheo/Documents/test/src/app/news/page.tsx"
+    },
+    "cv": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-23T13:34:42.748Z",
+        "lastUpdated": "2026-02-23T13:38:09.078Z"
+      },
+      "lastFile": "/Users/sangwooheo/Documents/test/src/app/cv/page.tsx"
+    },
+    "speaking": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-23T13:34:46.996Z",
+        "lastUpdated": "2026-02-23T13:34:46.996Z"
+      },
+      "lastFile": "/Users/sangwooheo/Documents/test/src/app/speaking/page.tsx"
+    },
+    "design-improvement": {
+      "phase": "act",
+      "phaseNumber": 5,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-23T13:38:17.020Z",
+        "lastUpdated": "2026-02-23T13:38:17.021Z"
+      },
+      "previousPhase": "check",
+      "autoAdvanced": true
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-02-23T13:26:09.205Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-02-23T13:38:17.021Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-02-23T13:33:12.512Z",
+      "feature": "test",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:33:24.907Z",
+      "feature": "test",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:33:41.312Z",
+      "feature": "test",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:33:44.864Z",
+      "feature": "test",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:33:50.083Z",
+      "feature": "test",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:34:18.596Z",
+      "feature": "test",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:34:27.707Z",
+      "feature": "writing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:34:35.044Z",
+      "feature": "news",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:34:42.748Z",
+      "feature": "cv",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:34:46.996Z",
+      "feature": "speaking",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:37:53.249Z",
+      "feature": "test",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:37:56.932Z",
+      "feature": "test",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:38:06.002Z",
+      "feature": "news",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:38:09.078Z",
+      "feature": "cv",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-23T13:38:17.021Z",
+      "feature": "design-improvement",
+      "phase": "act",
+      "action": "updated"
+    }
+  ]
+}
