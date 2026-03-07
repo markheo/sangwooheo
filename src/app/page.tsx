@@ -6,7 +6,7 @@ import { writings } from '@/data/writing'
 
 export const metadata: Metadata = {
   title: 'Sangwoo Heo',
-  description: 'AI Safety Policy & Management Lead at NAVER Corporation.',
+  description: 'Alignment Strategist & AI Safety Policy Lead at NAVER Corporation.',
 }
 
 export default function AboutPage() {
@@ -33,7 +33,7 @@ export default function AboutPage() {
             <span className="text-[1.1rem] font-normal text-subtle">허상우</span>
           </h1>
           <p className="text-[0.9rem] text-muted mb-[0.2rem] font-medium">
-            AI Safety Policy &amp; Management Lead · Project Lead
+            Alignment Strategist · AI Safety Policy Lead
           </p>
           <p className="text-[0.9rem] text-muted mb-5">
             NAVER Corporation, AI Safety Center &nbsp;·&nbsp; Seoul, Korea
@@ -42,16 +42,18 @@ export default function AboutPage() {
           {/* Bio */}
           <div className="text-[0.97rem] text-ink mb-10 space-y-[0.9rem]">
             <p>
-              I lead AI safety policy and management at NAVER Corporation&apos;s AI Safety Center.
-              Over the past two years, I have worked on establishing the company&apos;s
-              AI Safety Policy &amp; Governance Framework — contributing to risk assessment
-              standards for model deployment and end-to-end safety red-teaming protocols
-              for AI services, in alignment with Korea&apos;s AI Basic Act.
+              I work on AI Safety Policy at NAVER Corporation&apos;s AI Safety Center,
+              focusing on the intersection of AI capabilities and the norms, ethics,
+              and governance structures of human society. Over the past two years,
+              I have contributed to building the company&apos;s AI Safety Policy &amp; Governance
+              Framework — covering risk assessment standards for model deployment,
+              end-to-end safety red-teaming, and alignment with Korea&apos;s AI Basic Act.
             </p>
             <p>
-              I am particularly interested in how new technologies change the way
-              people work, learn, and allocate capital. I enjoy the early stage of
-              a problem — when the shape of it is still unclear and there is no
+              I am particularly interested in questions that don&apos;t yet have an answer —
+              how AI systems should be designed to align with human values, and what
+              new institutional structures that requires. I enjoy the early stage of
+              a problem, when the shape of it is still unclear and there is no
               existing playbook to follow. Figuring out what needs to be built,
               and then building it, is what I find most rewarding.
             </p>
@@ -59,8 +61,10 @@ export default function AboutPage() {
               Before moving into tech, I spent three years as a staff writer at{' '}
               <em>Chosun Ilbo</em>, covering government social policy —
               including Korea&apos;s early COVID-19 response and national pension reform. I later completed
-              a master&apos;s in data science at Seoul National University, publishing
-              first-author research on LLM hallucination detection. The combination —
+              a master&apos;s in data science at Seoul National University, where I published
+              first-author research on hallucination detection in LLM-based systems —
+              developing an automated pipeline that decomposes model outputs and evaluates
+              each sentence for factual consistency. The combination —
               a journalist&apos;s instinct for framing, sensitivity to institutional context,
               and technical training — shapes how I approach new problems.
             </p>
