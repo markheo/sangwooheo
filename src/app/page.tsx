@@ -1,30 +1,13 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import Tag from '@/components/Tag'
-import { writings } from '@/data/writing'
 
 export const metadata: Metadata = {
   title: 'Sangwoo Heo',
-  description: 'Alignment Strategist & AI Safety Policy Lead at NAVER Corporation.',
-}
-
-function renderAuthors(authors: string) {
-  const target = 'Sangwoo Heo'
-  const idx = authors.indexOf(target)
-  if (idx === -1) return <span>{authors}</span>
-  return (
-    <span>
-      {authors.slice(0, idx)}
-      <strong className="font-semibold text-ink">{target}</strong>
-      {authors.slice(idx + target.length)}
-    </span>
-  )
+  description: 'Human-AI Alignment Strategist & AI Safety Policy Lead at NAVER Corporation.',
 }
 
 export default function AboutPage() {
-  const featured = writings.slice(0, 1)
-
   return (
     <>
       {/* Hero */}
@@ -46,7 +29,7 @@ export default function AboutPage() {
             <span className="text-[1.1rem] font-normal text-subtle">허상우</span>
           </h1>
           <p className="text-[0.9rem] text-muted mb-[0.2rem] font-medium">
-            Alignment Strategist · AI Safety Policy Lead
+            Human-AI Alignment Strategist · AI Safety Policy Lead
           </p>
           <p className="text-[0.9rem] text-muted mb-5">
             NAVER Corporation, AI Safety Center &nbsp;·&nbsp; Seoul, Korea
@@ -56,19 +39,20 @@ export default function AboutPage() {
           <div className="text-[0.97rem] text-ink mb-10 space-y-[0.9rem]">
             <p>
               I work on AI Safety Policy at NAVER Corporation&apos;s AI Safety Center,
-              focusing on the intersection of AI capabilities and the norms, ethics,
-              and governance structures of human society. Over the past two years,
-              I have contributed to building the company&apos;s AI Safety Policy &amp; Governance
-              Framework — covering risk assessment standards for model deployment,
-              end-to-end safety red-teaming, and alignment with Korea&apos;s AI Basic Act.
+              at the boundary where AI capabilities meet the norms, ethics, and governance
+              structures of human society. Over the past two years, I have contributed to
+              building the company&apos;s AI Safety Policy &amp; Governance Framework —
+              covering risk assessment standards for model deployment, end-to-end safety
+              red-teaming, and alignment with Korea&apos;s AI Basic Act.
             </p>
             <p>
-              I am particularly interested in questions that don&apos;t yet have an answer —
-              how AI systems should be designed to align with human values, and what
-              new institutional structures that requires. I enjoy the early stage of
-              a problem, when the shape of it is still unclear and there is no
-              existing playbook to follow. Figuring out what needs to be built,
-              and then building it, is what I find most rewarding.
+              My interests span AI safety, alignment, and the broader question of how human
+              values — philosophical, legal, and social — can be embedded into AI systems.
+              I am drawn to the collision point between advancing AI and the institutions
+              and norms that human societies rely on: who sets the rules, how they&apos;re
+              enforced, and what gets lost when they lag behind. I enjoy the early stage of
+              a problem, when the shape of it is still unclear and there is no existing
+              playbook to follow.
             </p>
             <p>
               Before moving into tech, I spent three years as a staff writer at{' '}
@@ -106,59 +90,6 @@ export default function AboutPage() {
             </Link>
           </div>
         </div>
-      </section>
-
-      {/* Writing preview */}
-      <section className="mb-10">
-        <p className="text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-subtle mb-4 pb-3 border-b border-border">
-          Writing
-        </p>
-
-        {featured.map((item) => (
-          <div
-            key={item.id}
-            className="group mb-1 -mx-3 px-3 py-4 rounded-lg hover:bg-gray-50 transition-colors duration-150 border-b border-border-light last:border-b-0"
-          >
-            <p className="text-[0.97rem] mb-[0.2rem]">
-              {item.url ? (
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-ink underline underline-offset-[3px] hover:text-muted transition-colors"
-                >
-                  {item.title}
-                </a>
-              ) : (
-                <span className="text-ink">{item.title}</span>
-              )}
-              <Tag type={item.tag} label={item.tagLabel} />
-            </p>
-            <p className="font-sans text-[0.83rem] text-subtle mb-[0.35rem]">
-              {renderAuthors(item.authors)} &nbsp;·&nbsp; <em>{item.venue}</em>
-            </p>
-            <p className="text-[0.9rem] text-muted mb-2">{item.description}</p>
-            <div className="font-sans text-[0.82rem] flex gap-3">
-              {item.links.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted hover:text-ink transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </div>
-        ))}
-
-        <p className="font-sans text-[0.85rem] mt-3">
-          <Link href="/writing" className="text-ink underline underline-offset-[3px] hover:text-muted transition-colors">
-            All writing →
-          </Link>
-        </p>
       </section>
     </>
   )

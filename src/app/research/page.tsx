@@ -3,7 +3,7 @@ import Tag from '@/components/Tag'
 import { writings } from '@/data/writing'
 
 export const metadata: Metadata = {
-  title: 'Writing',
+  title: 'Research',
 }
 
 function renderAuthors(authors: string) {
@@ -27,7 +27,7 @@ function groupByYear(items: typeof writings) {
   }, {})
 }
 
-export default function WritingPage() {
+export default function ResearchPage() {
   const grouped = groupByYear(writings)
   const years = Object.keys(grouped)
     .map(Number)
@@ -35,7 +35,7 @@ export default function WritingPage() {
 
   return (
     <>
-      <h1 className="text-[1.75rem] font-semibold mb-10 tracking-[-0.03em]">Writing</h1>
+      <h1 className="text-[1.75rem] font-semibold mb-10 tracking-[-0.03em]">Research</h1>
 
       {years.map((year) => (
         <div key={year}>
