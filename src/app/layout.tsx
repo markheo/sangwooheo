@@ -15,10 +15,13 @@ export const metadata: Metadata = {
     template: '%s · Sangwoo Heo',
     default: 'Sangwoo Heo',
   },
-  description: 'AI Safety Policy & Management Lead at NAVER Corporation.',
+  description: 'Human-AI Alignment Strategist & AI Safety Policy Lead at NAVER Corporation, AI Safety Center.',
   openGraph: {
+    title: 'Sangwoo Heo',
+    description: 'Human-AI Alignment Strategist & AI Safety Policy Lead at NAVER Corporation, AI Safety Center.',
     siteName: 'Sangwoo Heo',
     locale: 'en_US',
+    type: 'website',
   },
 }
 
