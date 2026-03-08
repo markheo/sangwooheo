@@ -6,6 +6,19 @@ export const metadata: Metadata = {
   title: 'Writing',
 }
 
+function renderAuthors(authors: string) {
+  const target = 'Sangwoo Heo'
+  const idx = authors.indexOf(target)
+  if (idx === -1) return <span>{authors}</span>
+  return (
+    <span>
+      {authors.slice(0, idx)}
+      <strong className="font-semibold text-ink">{target}</strong>
+      {authors.slice(idx + target.length)}
+    </span>
+  )
+}
+
 function groupByYear(items: typeof writings) {
   return items.reduce<Record<number, typeof writings>>((acc, item) => {
     if (!acc[item.year]) acc[item.year] = []
@@ -36,18 +49,22 @@ export default function WritingPage() {
               className="-mx-3 px-3 py-4 rounded-lg hover:bg-gray-50 transition-colors duration-150 border-b border-border-light last:border-b-0"
             >
               <p className="text-[0.97rem] mb-[0.2rem]">
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-ink underline underline-offset-[3px] hover:text-muted transition-colors"
-                >
-                  {item.title}
-                </a>
+                {item.url ? (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-ink underline underline-offset-[3px] hover:text-muted transition-colors"
+                  >
+                    {item.title}
+                  </a>
+                ) : (
+                  <span className="text-ink">{item.title}</span>
+                )}
                 <Tag type={item.tag} label={item.tagLabel} />
               </p>
               <p className="font-sans text-[0.83rem] text-subtle mb-[0.35rem]">
-                {item.authors} &nbsp;·&nbsp; <em>{item.venue}</em>
+                {renderAuthors(item.authors)} &nbsp;·&nbsp; <em>{item.venue}</em>
               </p>
               <p className="text-[0.9rem] text-muted mb-2">{item.description}</p>
               <div className="font-sans text-[0.82rem] flex gap-3">
