@@ -19,7 +19,7 @@ const config: Config = {
         serif: ['var(--font-inter)', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
       },
       maxWidth: {
-        content: '680px',
+        content: '740px',
       },
     },
   },

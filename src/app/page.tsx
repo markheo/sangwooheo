@@ -36,7 +36,7 @@ export default function AboutPage() {
           </p>
 
           {/* Bio */}
-          <div className="text-[0.97rem] text-ink mb-10 space-y-[0.9rem]">
+          <div className="text-[1rem] text-ink mb-10 space-y-[1.1rem] leading-[1.75]">
             <p>
               I work on AI Safety Policy at NAVER Corporation&apos;s AI Safety Center,
               at the boundary where AI capabilities meet the norms, ethics, and governance

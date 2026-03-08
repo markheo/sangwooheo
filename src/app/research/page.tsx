@@ -39,7 +39,7 @@ export default function ResearchPage() {
 
       {years.map((year) => (
         <div key={year}>
-          <p className="text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-subtle mb-4 mt-8 first:mt-0">
+          <p className="text-[0.72rem] font-semibold uppercase tracking-[0.12em] text-subtle mb-5 mt-10 pb-3 border-b border-border first:mt-0">
             {year}
           </p>
 
@@ -66,7 +66,7 @@ export default function ResearchPage() {
               <p className="font-sans text-[0.83rem] text-subtle mb-[0.35rem]">
                 {renderAuthors(item.authors)} &nbsp;·&nbsp; <em>{item.venue}</em>
               </p>
-              <p className="text-[0.9rem] text-muted mb-2">{item.description}</p>
+              <p className="text-[0.95rem] text-muted mb-2">{item.description}</p>
               <div className="font-sans text-[0.82rem] flex gap-3">
                 {item.links.map((link) => (
                   <a
