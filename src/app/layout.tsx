@@ -32,9 +32,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-sans text-ink bg-bg leading-[1.7] min-h-screen flex flex-col`}>
+      <body className={`${inter.variable} font-sans text-ink bg-bg leading-[1.72] text-[1.03rem] sm:text-[1.06rem] min-h-screen flex flex-col`}>
         <Nav />
-        <main className="max-w-content w-full mx-auto px-4 pt-8 pb-12 sm:px-6 sm:pt-14 sm:pb-20 flex-1">
+        <main className="w-full mx-auto max-w-[var(--page-max-width)] px-5 pt-10 pb-16 sm:px-8 sm:pt-16 sm:pb-24 flex-1">
           {children}
         </main>
         <Footer />

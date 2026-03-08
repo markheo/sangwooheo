@@ -14,7 +14,7 @@ const colorMap: Record<TagType, string> = {
 export default function Tag({ type, label }: TagProps) {
   return (
     <span
-      className={`inline-block font-sans text-[0.72rem] font-semibold uppercase tracking-[0.05em] px-[0.55em] py-[0.15em] rounded-[3px] align-middle ml-[0.4rem] ${colorMap[type]}`}
+      className={`inline-block font-sans text-[0.76rem] font-semibold uppercase tracking-[0.04em] px-[0.6em] py-[0.2em] rounded-[4px] align-middle ml-[0.45rem] ${colorMap[type]}`}
     >
       {label}
     </span>

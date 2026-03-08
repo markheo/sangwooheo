@@ -35,26 +35,26 @@ export default function ResearchPage() {
 
   return (
     <>
-      <h1 className="text-[1.75rem] font-semibold mb-10 tracking-[-0.03em]">Research</h1>
+      <h1 className="text-[2rem] sm:text-[2.2rem] font-semibold mb-12 tracking-[-0.03em] leading-[1.16]">Research</h1>
 
       {years.map((year) => (
         <div key={year}>
-          <p className="text-[0.72rem] font-semibold uppercase tracking-[0.12em] text-subtle mb-5 mt-10 pb-3 border-b border-border first:mt-0">
+          <p className="text-[0.8rem] font-semibold uppercase tracking-[0.1em] text-subtle mb-5 mt-12 pb-3 border-b border-border first:mt-0">
             {year}
           </p>
 
           {grouped[year].map((item) => (
             <div
               key={item.id}
-              className="-mx-3 px-3 py-4 rounded-lg hover:bg-gray-50 transition-colors duration-150 border-b border-border-light last:border-b-0"
+              className="-mx-3 px-3 py-5 rounded-xl hover:bg-gray-50/80 transition-colors duration-150 border-b border-border-light last:border-b-0"
             >
-              <p className="text-[0.97rem] mb-[0.2rem]">
+              <p className="text-[1.08rem] leading-[1.55] mb-1">
                 {item.url ? (
                   <a
                     href={item.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-ink underline underline-offset-[3px] hover:text-muted transition-colors"
+                    className="text-ink font-medium underline underline-offset-[3px] hover:text-muted transition-colors"
                   >
                     {item.title}
                   </a>
@@ -63,11 +63,11 @@ export default function ResearchPage() {
                 )}
                 <Tag type={item.tag} label={item.tagLabel} />
               </p>
-              <p className="font-sans text-[0.83rem] text-subtle mb-[0.35rem]">
+              <p className="font-sans text-[0.92rem] text-subtle mb-1">
                 {renderAuthors(item.authors)} &nbsp;·&nbsp; <em>{item.venue}</em>
               </p>
-              <p className="text-[0.95rem] text-muted mb-2">{item.description}</p>
-              <div className="font-sans text-[0.82rem] flex gap-3">
+              <p className="text-[1rem] text-muted mb-2.5 leading-[1.7]">{item.description}</p>
+              <div className="font-sans text-[0.9rem] flex gap-4">
                 {item.links.map((link) => (
                   <a
                     key={link.label}

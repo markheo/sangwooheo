@@ -10,33 +10,31 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      {/* Hero */}
-      <section className="flex flex-col gap-5 items-start mb-14 sm:flex-row sm:gap-10">
+      <section className="flex flex-col gap-6 items-start mb-16 sm:flex-row sm:gap-12 sm:mb-20">
         <div className="flex-shrink-0">
           <Image
             src="/avatar.jpg"
             alt="Sangwoo Heo"
             width={130}
             height={130}
-            className="w-[100px] h-[100px] sm:w-[130px] sm:h-[130px] rounded-[5%] object-cover object-[center_5%] ring-1 ring-border"
+            className="w-[108px] h-[108px] sm:w-[136px] sm:h-[136px] rounded-[7%] object-cover object-[center_5%] ring-1 ring-border"
             priority
           />
         </div>
 
-        <div>
-          <h1 className="text-[2rem] font-semibold mb-[0.35rem] tracking-[-0.03em] text-ink">
+        <div className="max-w-[68ch]">
+          <h1 className="text-[2.2rem] sm:text-[2.5rem] font-semibold mb-1 tracking-[-0.035em] leading-[1.12] text-ink">
             Sangwoo Heo{' '}
-            <span className="text-[1.1rem] font-normal text-subtle">허상우</span>
+            <span className="text-[1.2rem] sm:text-[1.3rem] font-normal text-subtle">허상우</span>
           </h1>
-          <p className="text-[0.9rem] text-muted mb-[0.2rem] font-medium">
+          <p className="text-[1rem] text-muted mb-1 font-medium">
             Human-AI Alignment Strategist · AI Safety Policy Lead
           </p>
-          <p className="text-[0.9rem] text-muted mb-5">
+          <p className="text-[0.99rem] text-muted mb-7">
             NAVER Corporation, AI Safety Center &nbsp;·&nbsp; Seoul, Korea
           </p>
 
-          {/* Bio */}
-          <div className="text-[1rem] text-ink mb-10 space-y-[1.1rem] leading-[1.75]">
+          <div className="text-[1.05rem] text-ink mb-12 space-y-5 leading-[1.84]">
             <p>
               I work on AI Safety Policy at NAVER Corporation&apos;s AI Safety Center,
               at the boundary where AI capabilities meet the norms, ethics, and governance
@@ -67,8 +65,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Contact */}
-          <div className="font-sans text-[0.84rem] text-muted flex flex-wrap gap-y-1">
+          <div className="font-sans text-[0.95rem] text-muted flex flex-wrap gap-y-1">
             <a
               href="mailto:sangwoo.heo1@gmail.com"
               className="text-muted hover:text-ink transition-colors"

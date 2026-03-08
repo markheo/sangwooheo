@@ -1,8 +1,10 @@
 export default function Footer() {
+  const year = new Date().getFullYear()
+
   return (
-    <footer className="font-sans text-[0.78rem] text-subtle py-8 border-t border-border">
-      <div className="max-w-content mx-auto px-4 sm:px-6 flex items-center justify-between">
-        <p className="text-faint">© 2025 Sangwoo Heo</p>
+    <footer className="font-sans text-[0.86rem] text-subtle py-9 border-t border-border">
+      <div className="w-full mx-auto max-w-[var(--page-max-width)] px-5 sm:px-8 flex items-center justify-between">
+        <p className="text-faint">© {year} Sangwoo Heo</p>
         <p className="text-faint">Seoul, Korea</p>
       </div>
     </footer>

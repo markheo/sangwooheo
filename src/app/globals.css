@@ -3,9 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --page-max-width: 780px;
+  }
+
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    letter-spacing: -0.005em;
+    text-rendering: optimizeLegibility;
   }
 
   a {

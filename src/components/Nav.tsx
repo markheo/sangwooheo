@@ -20,25 +20,23 @@ export default function Nav() {
   }, [pathname])
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
-      <div className="h-[52px] px-4 sm:px-8 flex items-center justify-between">
-        {/* 사이트명 */}
+    <nav className="sticky top-0 z-50 bg-white/92 backdrop-blur-md border-b border-border/90">
+      <div className="h-[60px] px-5 sm:px-8 flex items-center justify-between">
         <Link
           href="/"
-          className="text-[0.92rem] font-semibold tracking-[-0.01em] text-ink no-underline hover:text-ink"
+          className="text-[1.02rem] font-semibold tracking-[-0.015em] text-ink no-underline hover:text-ink"
         >
           Sangwoo Heo
         </Link>
 
-        {/* 데스크톱 링크 */}
-        <div className="hidden sm:flex gap-[1.75rem]">
+        <div className="hidden sm:flex gap-8">
           {navLinks.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
-              className={`font-sans text-[0.88rem] tracking-[0.01em] no-underline transition-colors ${
+              className={`font-sans text-[0.95rem] tracking-[0.005em] no-underline transition-colors ${
                 pathname === href
-                  ? 'text-ink border-b-2 border-ink pb-[1px]'
+                  ? 'text-ink border-b-2 border-ink pb-[2px]'
                   : 'text-muted hover:text-ink'
               }`}
             >
@@ -47,7 +45,6 @@ export default function Nav() {
           ))}
         </div>
 
-        {/* 햄버거 버튼 (모바일) */}
         <button
           className="sm:hidden min-h-[44px] min-w-[44px] flex items-center justify-center text-muted hover:text-ink transition-colors"
           onClick={() => setIsOpen(!isOpen)}
@@ -66,14 +63,13 @@ export default function Nav() {
         </button>
       </div>
 
-      {/* 모바일 드롭다운 메뉴 */}
       {isOpen && (
         <div className="sm:hidden bg-white border-b border-border">
           {navLinks.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
-              className={`block px-4 font-sans text-[0.88rem] tracking-[0.01em] no-underline min-h-[44px] flex items-center transition-colors ${
+              className={`block px-5 font-sans text-[0.98rem] tracking-[0.005em] no-underline min-h-[48px] flex items-center transition-colors ${
                 pathname === href
                   ? 'text-ink font-semibold'
                   : 'text-muted hover:text-ink'
