@@ -30,6 +30,7 @@ Thumbs.db
 # Tools
 .claude/
 .bkit/
+docs/.pdca-status.json
 
 # Personal files (not part of project)
 KakaoTalk_*
