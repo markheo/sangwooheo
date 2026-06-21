@@ -17,7 +17,7 @@ export const seminar: Seminar = {
   subtitle: '수출 통제 대상이 된 AI와 안전 문제',
   date: '2026년 6월 26일 (금)',
   slides: [
-    { label: '발표 슬라이드 1' },
+    { label: '수출 통제 대상이 된 AI', url: '/research/session1-ai-safety.html' },
     { label: "Claude's Constitution", url: '/research/anthropic-constitution-v2.html' },
     { label: 'Constitutional AI (CAI)', url: '/research/constitutional-ai.html' },
   ],
