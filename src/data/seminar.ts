@@ -8,7 +8,6 @@ export interface Seminar {
   title: string
   subtitle: string
   date: string
-  location: string
   slides: SeminarSlide[]
 }
 
@@ -17,10 +16,9 @@ export const seminar: Seminar = {
   title: 'AI에게 최소한 무엇을 요구해야 하는가',
   subtitle: '클로드 제작사 앤트로픽의 헌법으로 읽는 정렬의 마지노선',
   date: '2026년 6월 26일 (금)',
-  location: '인사동 KOTE (조선살롱)',
   slides: [
     { label: '발표 슬라이드 1' },
-    { label: '발표 슬라이드 2' },
-    { label: 'Constitutional AI 소개', url: '/research/constitutional-ai.html' },
+    { label: "Claude's Constitution", url: '/research/anthropic-constitution-v2.html' },
+    { label: 'Constitutional AI (CAI)', url: '/research/constitutional-ai.html' },
   ],
 }

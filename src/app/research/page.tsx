@@ -96,7 +96,7 @@ export default function ResearchPage() {
             {seminar.title}
           </p>
           <p className="font-sans text-[0.92rem] text-subtle mb-1">
-            {seminar.group} &nbsp;·&nbsp; {seminar.date} &nbsp;·&nbsp; {seminar.location}
+            {seminar.group} &nbsp;·&nbsp; {seminar.date}
           </p>
           <p className="text-[1rem] text-muted mb-3 leading-[1.7]">{seminar.subtitle}</p>
 
