@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Tag from '@/components/Tag'
 import { writings } from '@/data/writing'
+import { seminar } from '@/data/seminar'
 
 export const metadata: Metadata = {
   title: 'Research',
@@ -84,6 +85,42 @@ export default function ResearchPage() {
           ))}
         </div>
       ))}
+
+      <div className="mt-16">
+        <p className="text-[0.8rem] font-semibold uppercase tracking-[0.1em] text-subtle mb-5 pb-3 border-b border-border">
+          Seminar
+        </p>
+
+        <div className="-mx-3 px-3 py-5">
+          <p className="text-[1.08rem] leading-[1.55] mb-1 text-ink font-medium">
+            {seminar.title}
+          </p>
+          <p className="font-sans text-[0.92rem] text-subtle mb-1">
+            {seminar.group} &nbsp;·&nbsp; {seminar.date} &nbsp;·&nbsp; {seminar.location}
+          </p>
+          <p className="text-[1rem] text-muted mb-3 leading-[1.7]">{seminar.subtitle}</p>
+
+          <div className="font-sans text-[0.9rem] flex flex-col gap-2">
+            {seminar.slides.map((slide, i) =>
+              slide.url ? (
+                <a
+                  key={i}
+                  href={slide.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted hover:text-ink transition-colors"
+                >
+                  {i + 1}. {slide.label} →
+                </a>
+              ) : (
+                <span key={i} className="text-faint">
+                  {i + 1}. {slide.label} (준비 중)
+                </span>
+              )
+            )}
+          </div>
+        </div>
+      </div>
     </>
   )
 }
