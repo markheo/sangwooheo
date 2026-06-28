@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     template: '%s · Sangwoo Heo',
     default: 'Sangwoo Heo',
   },
-  description: 'Human-AI Alignment Strategist & AI Safety Policy Lead at NAVER Corporation, AI Safety Center.',
+  description: 'Human-AI Alignment Strategist & AI Governance at Viva Republica (Toss).',
   openGraph: {
     title: 'Sangwoo Heo',
-    description: 'Human-AI Alignment Strategist & AI Safety Policy Lead at NAVER Corporation, AI Safety Center.',
+    description: 'Human-AI Alignment Strategist & AI Governance at Viva Republica (Toss).',
     siteName: 'Sangwoo Heo',
     locale: 'en_US',
     type: 'website',

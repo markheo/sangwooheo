@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Sangwoo Heo',
-  description: 'Human-AI Alignment Strategist & AI Safety Policy Lead at NAVER Corporation.',
+  description: 'Human-AI Alignment Strategist & AI Governance at Viva Republica (Toss).',
 }
 
 export default function AboutPage() {
@@ -28,20 +28,20 @@ export default function AboutPage() {
             <span className="text-[1.2rem] sm:text-[1.3rem] font-normal text-subtle">허상우</span>
           </h1>
           <p className="text-[1rem] text-muted mb-1 font-medium">
-            Human-AI Alignment Strategist · AI Safety Policy Lead
+            Human-AI Alignment Strategist · AI Governance
           </p>
           <p className="text-[0.99rem] text-muted mb-7">
-            NAVER Corporation, AI Safety Center &nbsp;·&nbsp; Seoul, Korea
+            Viva Republica (Toss) &nbsp;·&nbsp; Seoul, Korea
           </p>
 
           <div className="text-[1.05rem] text-ink mb-12 space-y-5 leading-[1.84]">
             <p>
-              I work on AI Safety Policy at NAVER Corporation&apos;s AI Safety Center,
-              at the boundary where AI capabilities meet the norms, ethics, and governance
-              structures of human society. Over the past two years, I have contributed to
-              building the company&apos;s AI Safety Policy &amp; Governance Framework —
-              covering risk assessment standards for model deployment, end-to-end safety
-              red-teaming, and alignment with Korea&apos;s AI Basic Act.
+              I work on AI governance at Viva Republica (Toss), at the boundary where AI
+              capabilities meet the norms, ethics, and governance structures of human
+              society. Previously, over two years at NAVER Corporation&apos;s AI Safety
+              Center, I helped build the company&apos;s AI Safety Policy &amp; Governance
+              Framework — covering risk assessment standards for model deployment,
+              end-to-end safety red-teaming, and alignment with Korea&apos;s AI Basic Act.
             </p>
             <p>
               My interests span AI safety, alignment, and the broader question of how human

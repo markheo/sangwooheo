@@ -16,10 +16,15 @@ export const cvSections: CvSection[] = [
     label: 'Employment & Professional Roles',
     items: [
       {
+        title: 'AI Governance Manager',
+        org: 'Viva Republica (Toss)',
+        period: '2026.6 – present',
+      },
+      {
         title: 'AI Safety Policy & Management, Project Lead',
         org: 'NAVER Corporation — AI Safety Center',
         orgNote: '(formerly AI Risk Management Center)',
-        period: '2025.7 – present',
+        period: '2025.7 – 2026.5',
         bullets: [
           'Developing AI risk management processes for internal and external models and AI application services',
           'Led the build of safety evaluation datasets for AI models — designing risk classification frameworks and evaluation systems',
