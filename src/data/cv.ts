@@ -32,7 +32,7 @@ export const cvSections: CvSection[] = [
         period: '2024.5 – 2026.5',
         bullets: [
           'Led follow-up implementation work on the Frontier AI Safety Commitments (AI Seoul Summit) — researching extreme risk definitions, evaluation frameworks, and threshold management protocols',
-          'Designed NAVER\'s company-wide AI risk governance framework — establishing risk management processes across internal/external models and AI services, and leading the Article 31 compliance framework for Korea\'s AI Basic Act (generative AI disclosure) as a private-sector member of the government guideline task forces (Articles 31, 32)',
+          'Designed the company-wide AI risk governance framework — establishing risk management processes across internal/external models and AI services, and leading the Article 31 compliance framework for Korea\'s AI Basic Act (generative AI disclosure) as a private-sector member of the government guideline task forces (Articles 31, 32)',
           'Led the build of safety evaluation datasets for AI models — designing risk classification frameworks and evaluation systems',
           'Attended UK AISI Frontier AI Safety Conference; presented at TTA AI Trust & Safety Conference; external talks and lectures on AI safety and policy',
         ],
