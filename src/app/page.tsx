@@ -45,6 +45,13 @@ export default function AboutPage() {
               Basic Act.
             </p>
             <p>
+              Concretely, I own the end-to-end AI safety &amp; risk management
+              picture: driving safeguards from research into production across
+              engineering and policy, and building regulation-grounded evaluation
+              and risk controls — red-teaming, jailbreak and tampering tests, and a
+              living risk taxonomy.
+            </p>
+            <p>
               What draws me is embedding human values — philosophical, legal, social —
               into AI systems, and the early stage of a problem, when its shape is still
               unclear and there is no playbook to follow.
