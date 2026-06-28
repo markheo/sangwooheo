@@ -26,26 +26,17 @@ export const cvSections: CvSection[] = [
         ],
       },
       {
-        title: 'AI Safety Policy & Management, Project Lead',
+        title: 'AI Safety Policy, Management & Research, Project Lead',
         org: 'NAVER Corporation — AI Safety Center',
-        orgNote: '(formerly AI Risk Management Center)',
-        period: '2025.7 – 2026.5',
-        bullets: [
-          'Developing AI risk management processes for internal and external models and AI application services',
-          'Led the build of safety evaluation datasets for AI models — designing risk classification frameworks and evaluation systems',
-          'Led compliance framework for Korea\'s AI Basic Act Article 31 (generative AI disclosure obligations)',
-          'Participated as private sector member in government AI Basic Act guideline task forces (Articles 31, 32)',
-          'External talks and lectures on AI safety and policy',
-        ],
-      },
-      {
-        title: 'AI Safety Research',
-        org: 'NAVER Corporation — Future AI Center',
-        period: '2024.5 – 2025.6',
+        orgNote: '(formerly Future AI Center / AI Risk Management Center)',
+        period: '2024.5 – 2026.5',
         bullets: [
           'Led follow-up implementation work on the Frontier AI Safety Commitments (AI Seoul Summit) — researching extreme risk definitions, evaluation frameworks, and threshold management protocols',
-          'Attended UK AISI Frontier AI Safety Conference; presented at TTA AI Trust & Safety Conference',
           'Contributed to the design of a company-wide AI risk governance framework',
+          'Developed AI risk management processes for internal and external models and AI application services',
+          'Led the build of safety evaluation datasets for AI models — designing risk classification frameworks and evaluation systems',
+          'Led compliance framework for Korea\'s AI Basic Act Article 31 (generative AI disclosure obligations); served as private sector member on government AI Basic Act guideline task forces (Articles 31, 32)',
+          'Attended UK AISI Frontier AI Safety Conference; presented at TTA AI Trust & Safety Conference; external talks and lectures on AI safety and policy',
         ],
       },
       {
