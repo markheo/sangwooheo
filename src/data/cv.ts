@@ -26,16 +26,14 @@ export const cvSections: CvSection[] = [
         ],
       },
       {
-        title: 'AI Safety Policy, Management & Research, Project Lead',
+        title: 'AI Safety Policy, Management & Research',
         org: 'NAVER Corporation — AI Safety Center',
         orgNote: '(formerly Future AI Center / AI Risk Management Center)',
         period: '2024.5 – 2026.5',
         bullets: [
           'Led follow-up implementation work on the Frontier AI Safety Commitments (AI Seoul Summit) — researching extreme risk definitions, evaluation frameworks, and threshold management protocols',
-          'Contributed to the design of a company-wide AI risk governance framework',
-          'Developed AI risk management processes for internal and external models and AI application services',
+          'Designed NAVER\'s company-wide AI risk governance framework — establishing risk management processes across internal/external models and AI services, and leading the Article 31 compliance framework for Korea\'s AI Basic Act (generative AI disclosure) as a private-sector member of the government guideline task forces (Articles 31, 32)',
           'Led the build of safety evaluation datasets for AI models — designing risk classification frameworks and evaluation systems',
-          'Led compliance framework for Korea\'s AI Basic Act Article 31 (generative AI disclosure obligations); served as private sector member on government AI Basic Act guideline task forces (Articles 31, 32)',
           'Attended UK AISI Frontier AI Safety Conference; presented at TTA AI Trust & Safety Conference; external talks and lectures on AI safety and policy',
         ],
       },
