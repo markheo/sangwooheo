@@ -37,31 +37,17 @@ export default function AboutPage() {
           <div className="text-[1.05rem] text-ink mb-12 space-y-5 leading-[1.84]">
             <p>
               I work on AI governance at Viva Republica (Toss), at the boundary where AI
-              capabilities meet the norms, ethics, and governance structures of human
-              society. Previously, over two years at NAVER Corporation&apos;s AI Safety
-              Center, I helped build the company&apos;s AI Safety Policy &amp; Governance
-              Framework — covering risk assessment standards for model deployment,
-              end-to-end safety red-teaming, and alignment with Korea&apos;s AI Basic Act.
+              capabilities meet the norms, ethics, and institutions human societies rely
+              on — who sets the rules, how they’re enforced, and what gets lost when
+              they lag behind. Before this, two years at NAVER’s AI Safety Center
+              building its safety policy and governance framework: risk assessment for
+              model deployment, safety red-teaming, and alignment with Korea’s AI
+              Basic Act.
             </p>
             <p>
-              My interests span AI safety, alignment, and the broader question of how human
-              values — philosophical, legal, and social — can be embedded into AI systems.
-              I am drawn to the collision point between advancing AI and the institutions
-              and norms that human societies rely on: who sets the rules, how they&apos;re
-              enforced, and what gets lost when they lag behind. I enjoy the early stage of
-              a problem, when the shape of it is still unclear and there is no existing
-              playbook to follow.
-            </p>
-            <p>
-              Before moving into tech, I spent three years as a staff writer at{' '}
-              <em>Chosun Ilbo</em>, covering government social policy —
-              including Korea&apos;s early COVID-19 response and national pension reform. I later completed
-              a master&apos;s in data science at Seoul National University, where I published
-              first-author research on hallucination detection in LLM-based systems —
-              developing an automated pipeline that decomposes model outputs and evaluates
-              each sentence for factual consistency. The combination —
-              a journalist&apos;s instinct for framing, sensitivity to institutional context,
-              and technical training — shapes how I approach new problems.
+              What draws me is embedding human values — philosophical, legal, social —
+              into AI systems, and the early stage of a problem, when its shape is still
+              unclear and there is no playbook to follow.
             </p>
           </div>
 
