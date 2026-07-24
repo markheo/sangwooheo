@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     template: '%s · Sangwoo Heo',
     default: 'Sangwoo Heo',
   },
-  description: 'Human-AI Alignment Strategist & AI Governance at Viva Republica (Toss).',
+  description: 'AI Strategy & Governance at Viva Republica (Toss). Working where AI capability meets risk, regulation, and business value.',
   openGraph: {
     title: 'Sangwoo Heo',
-    description: 'Human-AI Alignment Strategist & AI Governance at Viva Republica (Toss).',
+    description: 'AI Strategy & Governance at Viva Republica (Toss). Working where AI capability meets risk, regulation, and business value.',
     siteName: 'Sangwoo Heo',
     locale: 'en_US',
     type: 'website',
