@@ -62,7 +62,7 @@ export default function ResearchPage() {
                 ) : (
                   <span className="text-ink">{item.title}</span>
                 )}
-                <Tag type={item.tag} label={item.tagLabel} />
+                {item.tag && item.tagLabel && <Tag type={item.tag} label={item.tagLabel} />}
               </p>
               <p className="font-sans text-[0.92rem] text-subtle mb-1">
                 {renderAuthors(item.authors)} &nbsp;·&nbsp; <em>{item.venue}</em>
