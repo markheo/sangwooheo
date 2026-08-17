@@ -21,7 +21,7 @@ export const writings: Writing[] = [
     authors: '2025 Technology Impact Assessment Committee (Sangwoo Heo, Contributing Writer · Former NAVER Researcher)',
     venue: 'Ministry of Science and ICT · Korea Institute of S&T Evaluation and Planning (KISTEP), 2026.7',
     description:
-      'Contributing writer for Part I, "Survival Manual": authored Chapter 15, "Convergence & Innovation: Connected Agents, Complicating Control," and Chapter 17, "Sovereignty & Security: Control and Responsibility in the Age of AI Security."',
+      'Authored Chapter 15, "Convergence & Innovation: Connected Agents, Complicating Control," and Chapter 17, "Sovereignty & Security: Control and Responsibility in the Age of AI Security," in Part I, "Survival Manual."',
     links: [],
   },
   {
