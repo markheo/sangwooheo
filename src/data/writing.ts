@@ -15,6 +15,18 @@ export interface Writing {
 
 export const writings: Writing[] = [
   {
+    id: 'kistep-ai-agent-manual-2026',
+    year: 2026,
+    title: 'AI Agent Era Survival Manual — 2025 Technology Impact Assessment Report',
+    authors: 'Sangwoo Heo',
+    venue: 'Ministry of Science and ICT · Korea Institute of S&T Evaluation and Planning (KISTEP), 2026.7',
+    description:
+      'Contributing writer for Part I, "Survival Manual": authored Chapter 15, "Convergence & Innovation: Connected Agents, Complicating Control," and Chapter 17, "Sovereignty & Security: Control and Responsibility in the Age of AI Security."',
+    tag: 'report',
+    tagLabel: 'Contributing Writer · Former NAVER Researcher',
+    links: [],
+  },
+  {
     id: 'chi-2026',
     year: 2026,
     title: '"Can LLMs Persuade Humans with Deception?": From a Deceptive Strategy Taxonomy to a Large-Scale Empirical Study',
